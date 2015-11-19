@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            FileInputStream file = new FileInputStream("/home/maksim/Downloads/CITY.xls");
+            FileInputStream file = new FileInputStream("CITY.xls");
 
             Workbook workbook = WorkbookFactory.create(file);
 
